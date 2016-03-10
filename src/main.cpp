@@ -1,7 +1,11 @@
+#include "City.hpp"
+
 #include <iostream>
 
+
 int main(void) {
-    std::cout << "moi maailma" << std::endl;
+    Random r;
+    City city(20, r);
 
     return 0;
 }
